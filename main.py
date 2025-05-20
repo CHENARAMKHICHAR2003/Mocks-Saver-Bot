@@ -80,7 +80,7 @@ async def select_language(event):
             file.write(html_content)
 
         # Send the HTML file to the user
-        await bot.send_file(event.chat_id, file=file_path, caption=f"**📕 Test Name: {title}**\n**😰 Exam: {course}**\n\n__**Powered by Team SPY**__")
+        await bot.send_file(event.chat_id, file=file_path, caption=f"**📕 Test Name: {title}**\n**😰 Exam: {course}**\n\n__**CREATED BY CR CHOUDHARY**__")
         os.remove(file_path)  # Clean up
     except Exception as e:
         await event.reply(f"Error generating HTML file: {e}")
