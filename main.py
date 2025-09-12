@@ -208,7 +208,7 @@ def generate_html(data, language):
         html_content += """
         </div>
         <footer>
-            Powered by Test Generator Bot
+            Powered by Test Generator Bot BY CR CHOUDHARY 
         </footer>
         </body>
         </html>
